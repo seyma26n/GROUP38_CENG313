@@ -142,8 +142,13 @@ Overall, SIFT-based feature matching provides a stronger baseline for the select
 ```text
 GROUP38_CENG313/
 ├── README.md
-└── notebooks/
-    └── Assignment1_eda_baseline.ipynb
+├── notebooks/
+│   └── Assignment1_eda_baseline.ipynb
+└── src/
+    ├── __init__.py
+    ├── data.py
+    ├── models.py
+    └── utils.py
 ```
 
 The notebook contains the EDA, both baseline implementations, evaluation metrics, comparison tables, and visualizations.
